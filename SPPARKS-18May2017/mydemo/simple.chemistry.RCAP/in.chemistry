@@ -1,0 +1,25 @@
+# SPPARKS chemistry application
+# Simple A + B <-> C reaction via Gillepsie SSA
+
+seed		12345
+
+app_style	chemistry
+solve_style	linear
+
+volume		1.0e-15
+
+add_species		R
+add_species		C
+add_species		A
+add_species		P
+
+add_reaction	1 R C 1e6  A
+add_reaction	2 A   1e-4 R C
+add_reaction	3 A   0.1  P C
+
+count		R 301
+count		C 120
+
+stats           0.0000001
+
+run		50
