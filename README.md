@@ -5,7 +5,8 @@
 [KMCLib](https://github.com/leetmaa/KMCLib)       [官方文档](http://leetmaa.github.io/KMCLib/manual-v1.1/)
 
 ~源代码基于C++，并对于Python2写了wrapper。该库基于GCC-9.3和MPICH-3.3.2编译，并修改了Python2 wrapper以用于Python3~
-KMCLib官方提供了Python3的接口！
+
+KMCLib官方已经提供了Python3的接口！
 
 References DOI: 
 - [10.1016/j.cpc.2014.04.017](https://doi.org/10.1016/j.cpc.2014.04.017)
