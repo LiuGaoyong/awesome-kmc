@@ -1,8 +1,7 @@
 # awesome-kmc
 一些比较好用的kinetic monte carlo代码（添加Python3-wrapper）
 
-### 1.
-[KMCLib](https://github.com/leetmaa/KMCLib)       [官方文档](http://leetmaa.github.io/KMCLib/manual-v1.1/)
+### 1.  [KMCLib](https://github.com/leetmaa/KMCLib)       [官方文档](http://leetmaa.github.io/KMCLib/manual-v1.1/)
 
 ~源代码基于C++，并对于Python2写了wrapper。该库基于GCC-9.3和MPICH-3.3.2编译，并修改了Python2 wrapper以用于Python3~
 
